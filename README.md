@@ -8,13 +8,13 @@ helper / KernelSU activation driver, the verified Samsung KernelSU late-load
 binaries, and the support feed consumed by the app.
 
 This fork is the active development line (~120 commits ahead of
-`BuSung-dev/Root-My-Galaxy-Payloads`); upstream tracks releases.
+`BuSung-dev/Root-My-Galaxy-Payloads`) for auto root app on 5.15 kernels.
 
 Use only on devices you own or are explicitly authorized to test.
 
 ## Current state
 
-- Latest payload release: **v1.2.12** (tag = release; releases ship the
+- Latest payload release: **v1.2.16** (tag = release; releases ship the
   committed, device-verified artifacts byte-for-byte — never CI rebuilds).
 - Reference device: **Galaxy Z Fold5 `SM-F946B` / `F946BXXS7GZE5`** —
   full auto-root pipeline verified end-to-end across 9+ consecutive boots
