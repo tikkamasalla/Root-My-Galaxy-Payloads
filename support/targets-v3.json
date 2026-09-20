@@ -226,6 +226,26 @@
       }
     },
     {
+      "payloadId": "dm3q-S918WVLS6CYB3",
+      "displayName": "Galaxy S23 Ultra (Canada) SM-S918W | Kernel 5.15.148 (S918WVLS6CYB3)",
+      "models": ["SM-S918W"],
+      "kernelVersions": ["5.15.148"],
+      "exploit": {
+        "url": "https://raw.githubusercontent.com/tikkamasalla/Root-My-Galaxy-Payloads/main/artifacts/dm3q-S918WVLS6CYB3/cve-2026-43499-app.so",
+        "size": 104128
+      },
+      "rootHelper": {
+        "url": "https://raw.githubusercontent.com/tikkamasalla/Root-My-Galaxy-Payloads/main/artifacts/dm3q-S918WVLS6CYB3/cve-2026-43499-root",
+        "size": 27056
+      },
+      "kernelsu": {
+        "url": "https://raw.githubusercontent.com/tikkamasalla/Root-My-Galaxy-Payloads/main/kernelsu/ksud-dm3q-S918WVLS6CYB3-kdp",
+        "size": 4629456
+      },
+      "notes": "Device-tested SM-S918W S918WVLS6CYB3: uid=2000->0, KernelSU live, su_compat ENABLED. Temp root only.",
+      "slideSource": "tracefs"
+    },
+    {
       "payloadId": "a53x-A536EXXSNGZG3",
       "displayName": "Galaxy A53 5G | Kernel 5.10.237",
       "models": ["SM-A536E"],
